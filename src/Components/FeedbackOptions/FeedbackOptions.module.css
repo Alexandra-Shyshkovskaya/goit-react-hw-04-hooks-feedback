@@ -1,0 +1,25 @@
+.button {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 5px 15px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border-color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.15px;
+  background-image: linear-gradient(
+    to right,
+    #9eefe1 0%,
+    #4830f0 51%,
+    #9eefe1 100%
+  );
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(11, 79, 134, 0.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-position: right center;
+}
